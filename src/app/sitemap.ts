@@ -18,6 +18,7 @@ const STATIC_ROUTES = [
   '/learn/paths',
   '/learn/paths/understand-intuition',
   '/spotlights',
+  '/ecosystem',
 ] as const;
 
 export default function sitemap(): MetadataRoute.Sitemap {
